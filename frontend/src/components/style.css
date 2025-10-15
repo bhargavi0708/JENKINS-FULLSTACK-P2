@@ -1,0 +1,147 @@
+/* Container */
+.food-order-container {
+  font-family: 'Arial, sans-serif';
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Title */
+.food-order-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000911;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Cards */
+.food-order-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Form grid */
+.food-order-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Inputs & Selects */
+.food-order-input,
+.food-order-select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.food-order-select {
+  background-color: #fff;
+}
+
+/* Button group */
+.food-order-btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Buttons */
+.food-order-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.food-order-btn-blue {
+  background-color: #110425;
+  color: #fff;
+}
+
+.food-order-btn-blue:hover {
+  background-color: #2980b9;
+}
+
+.food-order-btn-green {
+  background-color: #0d381f;
+  color: #fff;
+}
+
+.food-order-btn-green:hover {
+  background-color: #1d3226;
+}
+
+.food-order-btn-gray {
+  background-color: #95a5a6;
+  color: #fff;
+}
+
+.food-order-btn-gray:hover {
+  background-color: #7f8c8d;
+}
+
+.food-order-btn-red {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.food-order-btn-red:hover {
+  background-color: #c0392b;
+}
+
+/* Table */
+.food-order-table-wrapper {
+  overflow-x: auto;
+}
+
+.food-order-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.food-order-table th,
+.food-order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.food-order-table th {
+  background-color: #3498db;
+  color: #fff;
+  text-align: left;
+}
+
+/* Message banners */
+.food-order-error {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.food-order-success {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Preformatted JSON */
+.food-order-pre {
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}

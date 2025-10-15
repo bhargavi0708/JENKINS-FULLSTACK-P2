@@ -1,0 +1,193 @@
+/* ---------- Theme Colors ---------- */
+:root {
+  --primary: #ff7043;
+  --secondary: #ffb74d;
+  --bg: #fafafa;
+  --text-dark: #333;
+  --text-light: #666;
+  --border: #ddd;
+  --radius: 10px;
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Global ---------- */
+body {
+  margin: 0;
+  background: var(--bg);
+  background-color: #77c4ce;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ---------- Container ---------- */
+.food-container {
+  width: 85%;
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* ---------- Title ---------- */
+h1 {
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+/* ---------- Form ---------- */
+.food-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.food-form input,
+.food-form select {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  min-width: 160px;
+  font-size: 0.95rem;
+  transition: 0.2s;
+}
+
+.food-form input:focus,
+.food-form select:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+.food-form button {
+  padding: 10px 20px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.food-form button:hover {
+  background: #e64a19;
+}
+
+/* ---------- Table ---------- */
+.food-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.food-table th,
+.food-table td {
+  padding: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.food-table th {
+  background: #ffe0b2;
+  color: var(--text-dark);
+  text-transform: uppercase;
+}
+
+.food-table tr:nth-child(even) {
+  background: #fffaf5;
+}
+
+.food-table td button {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.food-table td button:hover {
+  background: #c62828;
+}
+
+/* ---------- Add Order Section ---------- */
+.add-order {
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff8f3;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 500px;
+}
+
+.add-order h2 {
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+.add-order input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-right: 10px;
+}
+
+.add-order button {
+  padding: 10px 18px;
+  background: var(--secondary);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-order button:hover {
+  background: #ffa726;
+}
+
+/* ---------- Fetch by ID Section ---------- */
+.fetch-section {
+  margin: 25px auto;
+  padding: 20px;
+  background: #eef6ff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fetch-section input {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  width: 60%;
+}
+
+.fetch-section button {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.fetch-section button:hover {
+  background: #1976d2;
+}

@@ -1,0 +1,106 @@
+/* App.css */
+.food-container {
+  width: 85%;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ff7043;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.food-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.food-form input,
+.food-form select {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  min-width: 180px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.food-form input:focus,
+.food-form select:focus {
+  border-color: #ff7043;
+  box-shadow: 0 0 6px rgba(255, 112, 67, 0.4);
+  outline: none;
+}
+
+.food-form button {
+  padding: 12px 24px;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.food-form button:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+
+.food-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.food-table th,
+.food-table td {
+  border: none;
+  padding: 14px 10px;
+  text-align: center;
+}
+
+.food-table th {
+  background-color: #ffe0b2;
+  color: #5d4037;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.food-table tr:nth-child(even) {
+  background-color: #fff8f3;
+}
+
+.food-table tr:hover {
+  background-color: #ffe0b2;
+  transition: 0.3s;
+}
+
+.food-table td button {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.food-table td button:hover {
+  background: #c62828;
+  transform: scale(1.05);
+}
